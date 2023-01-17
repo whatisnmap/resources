@@ -58,12 +58,6 @@ $(document).ready(function($) {
           $platform_list.removeClass('active');
         }
       }
-      $('.platform-item').click(function() {
-        if ($(this).hasClass('active')) {} else {
-
-        }
-        fixplatformBox($(this));
-      });
 
       var $console_username;
       $("#proc-btn-1").click(function() {
